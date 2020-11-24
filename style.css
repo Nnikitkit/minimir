@@ -1,14 +1,29 @@
 .contacts-header img {
 	width: 50px;
 }
-
-.packs-content img {
-	width: 500px; 
+.packs-content img, article {
+	width: 350px; /*тут регулируем размеры картинок каталога*/
 }
 
-.block {
-	border-radius: 10%; 
-	border-color: black;
-	border-size: 2px;
+
+.packs-content {
+	display: flex;
+	justify-content: space-between;
+}/*разобраться по флексу*/
+
+.packs-content article {
+	height: 500px;
+	background-color: white;
 	text-align: center;
-} /*как сделать то блок? смотреть в основах пхп*/
+} 
+
+a {
+	text-decoration: none;
+}
+main {
+	background-color: #f7f7f7;
+}
+
+body {
+	font-family: L&C Hairline HQ;
+}
